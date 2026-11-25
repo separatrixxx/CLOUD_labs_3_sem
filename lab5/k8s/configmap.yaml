@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: gallery-config
+  namespace: gallery
+data:
+  APP_VERSION: "v1.0.1"
